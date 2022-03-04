@@ -1,0 +1,42 @@
+TO-DO
+
+
+- Pausar jogo se so houver um player
+
+
+-Regra dos 2 segundos
+- Impedir jogadas no timeour dessas 2 regrass
+
+
+- Sincronizar
+
+
+----------------------------------------
+1. Compile and run the example  -> FEITO
+
+2. Study the board manipulation functions -> FEITO
+
+3. Define the messages exchanged between the clients and servers -> FEITO
+    3.1. What information is sent from a clients to the server -> FEITO
+    3.2. What messages are sent from the server to all clients? -> FEITO
+
+4. Implement a server that receives a connection from a single player -> FEITO
+    4.1. Guarantee some of the game rule (wait times) -> 50%
+
+
+5. Implement a UI client -> FEITO
+
+6. Change the server to access multiple concurrent players -> FEITO
+    6.1. Assignment of a color to each player -> FEITO
+    6.2. Storage of the player information (sockets, state, color) -> FEITO
+    6.3. Communication of board updates to all clients -> FEITO
+
+7. Implement a bot -> FEITO
+
+8. Implement correctly:
+    8.1. the game start (two players are required) -> FEITO
+    8.2. Addition of a new player during a game -> FEITO
+    8.3. Pause of the game when only one player is connected
+    8.4. Game end ->FEITO
+
+9. Implementation suitable synchronization

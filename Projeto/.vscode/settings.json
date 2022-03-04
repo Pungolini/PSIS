@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "playermanagement.h": "c",
+        "unistd.h": "c"
+    }
+}

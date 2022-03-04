@@ -1,0 +1,10 @@
+TODO
+
+- Create master process (args = argv, #slaves , #randnum)
+	-> Generate sequence of rand numbers
+	-> Write those numbers on a pipe
+
+- Create a pipe
+
+- Create slave process
+	-> Reads number from pipe and verify whether it's a prime one or not
